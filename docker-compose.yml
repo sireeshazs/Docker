@@ -21,7 +21,7 @@ services:
    - users 
 
  todo:
-   image: 451563709560.dkr.ecr.us-east-1.amazonaws.com/todo:0.0.5
+   image: 451563709560.dkr.ecr.us-east-1.amazonaws.com/todo:0.0.15
    container_name: todo
    depends_on: 
    - redis
