@@ -8,7 +8,7 @@ services:
    depends_on: 
    - users
    - todo
-  - login
+   - login
 
  users: 
    image: 451563709560.dkr.ecr.us-east-1.amazonaws.com/users:0.0.3
