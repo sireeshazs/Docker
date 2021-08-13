@@ -15,7 +15,7 @@ services:
    container_name: users
 
  login:
-   image: 451563709560.dkr.ecr.us-east-1.amazonaws.com/login:0.0.25
+   image: 451563709560.dkr.ecr.us-east-1.amazonaws.com/login:0.0.26
    container_name: login
    depends_on: 
    - users 
